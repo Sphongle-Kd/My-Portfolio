@@ -1,0 +1,21 @@
+.button{
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #59b256 26.76%, #4efa0a 96.36%);;
+    box-shadow: 0px 20px 24px 3px rgba(1, 253, 114, 0.42);
+}
+.button:hover{
+    background: white;
+    cursor: pointer;
+    color:#59b256;
+    border: 2px solid #59b256;
+}  
+
+@media screen and (max-width:480px){
+    .App{
+        padding: 0.5rem 1rem;
+    }
+}

@@ -1,0 +1,69 @@
+.s-wrapper{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    /* padding: 0.3rem 0.3rem; */
+    display: flex;
+    height: 100vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+
+}
+.s-left{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    position: relative;
+}
+.s-right{
+    display: flex;
+    flex: 1;
+}
+.s-title {
+    font-size: 60px;
+    font-weight:bold ;
+
+}
+.s-desc{
+    margin-top: 1rem;
+}
+.s-button{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+.s-right{
+    position: relative;
+}
+
+.s-right>*{
+    position: absolute;
+}
+
+@media screen and (max-width:480px) {
+    .s-wrapper{
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 10px;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0px;
+    }
+    .s-title{
+        font-size: 50px; ;
+    }
+    .s-right{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+    .s-right>*{
+        position: static;
+    }
+    .s-button{
+        margin-top: 5rem;
+    }
+    .s-desc{
+        font-weight: 300;
+    }
+}
